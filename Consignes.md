@@ -96,7 +96,7 @@ GET {{url vers le serveur NodeJS}}/recipes
 
 ```json
 {
-	code: "404",
+	"code": "404",
 	"title": "Ressources non trouvées."
 }
 ```
@@ -154,7 +154,7 @@ GET {{url vers le serveur NodeJS}}/recipes?ingredient=onion
 
 ```json
 {
-	code: "404",
+	"code": "404",
 	"title": "Ressources non trouvées."
 }
 ```
