@@ -1,6 +1,5 @@
 
 # Principe de l'application et Stack Technique
----
 
 Master Cook est une application de gestion de recettes de cuisine. Elle permet à ses utilisateurs de consulter une liste de recettes, de les filtrer par type de gastronomie, et par ingrédient. Les utilisateurs peuvent également ajouter leurs propre recette à la liste et la rendre accessible au public.
 
@@ -9,7 +8,7 @@ La stack technique de cette application est le HTML, le CSS, et le JS pour front
 <br>
 
 # Formalisme
----
+
 
 Le JSON de stockage qui contiendra toutes les recettes se présentera de la façon suivante :
 
@@ -75,7 +74,7 @@ pincée -> "UNIT_PINCH"
 <br>
 
 # URL exposées
----
+
 
 <br>
 
@@ -364,7 +363,7 @@ DELETE {{url vers le serveur NodeJS}}/recipes/{{id}}
 <br>
 
 # Consignes
----
+
 
 Créer une page web réduite à sa plus simple expression pour gérer les différentes recettes.
 
@@ -377,7 +376,7 @@ Pour manipuler le fichier JSON en back, on utilisera `JSON.parse` pour convertir
 <br>
 
 # Critères de notation
----
+
 
 Le HTML et le CSS sera minimaliste, et juste assez élaboré pour afficher convenablement les fonctionnalités de l'application.
 
