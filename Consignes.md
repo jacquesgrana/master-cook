@@ -126,6 +126,7 @@ GET {{url vers le serveur NodeJS}}/recipes?ingredient=onion
 ```json
 "recipes": [
 	{
+		"id": 1,
 		"title": "Raclette",
 		"ingredients": [
 			{
@@ -144,6 +145,7 @@ GET {{url vers le serveur NodeJS}}/recipes?ingredient=onion
 		]
 	},
 	{
+		"id": 2,
 		"title": "Bouillabaisse",
 		...
 	}
@@ -175,6 +177,7 @@ POST {{url vers le serveur NodeJS}}/recipes
 
 ```json
 {
+	"id": 47,
 	"title": "Tiramisu",
 	"ingredients": [
 		{
@@ -252,6 +255,7 @@ PATCH {{url vers le serveur NodeJS}}/recipes/{{id}}
 
 ```json
 {
+	"id": 12,
 	"title": "Tiramisu",
 	"ingredients": [
 		{
