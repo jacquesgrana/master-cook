@@ -3,7 +3,7 @@
 
 Master Cook est une application de gestion de recettes de cuisine. Elle permet à ses utilisateurs de consulter une liste de recettes, de les filtrer par type de gastronomie, et par ingrédient. Les utilisateurs peuvent également ajouter leurs propre recette à la liste et la rendre accessible au public.
 
-La stack technique de cette application est le HTML, le CSS, et le JS pour front-end, et NodeJS (Express) pour le back-end. Pour le stockage des données, on utilisera un fichier JSON.
+La stack technique de cette application est le HTML, le CSS, et le JS pour front-end, et NodeJS (Express) pour le back-end. Pour le stockage des données, on utilisera un fichier JSON qui sera stocké dans le projet back-end.
 
 <br>
 
@@ -373,7 +373,7 @@ Créer une page web réduite à sa plus simple expression pour gérer les diffé
 
 L'interrogation de votre back-end NodeJS se fera côté JavaScript en utilisant [L'API fetch](https://developer.mozilla.org/fr/docs/Web/API/Fetch_API). Une fois les données JSON obtenu, le JS sera responsable du rendu de la page web en intervenant sur le HTML. La responsabilité côté client se limite à exposer les informations de manière lisible pour l'utilisateur et à faire des requêtes HTTP.
 
-Le back-end de votre application sera rédigée en NodeJS. Vous y dressez une liste de vos requêtes et la logique métier y sera centralisée. La responsabilité du back-end va être d'écrire et de lire dans le fichier JSON de stockage, et de restituer les données au front en suivant la nomenclature détaillée plus haut.
+Le back-end de votre application sera rédigée en NodeJS. Vous y dressez une liste de vos requêtes et la logique métier y sera centralisée. La responsabilité du back-end va être d'écrire et de lire dans le fichier JSON de stockage, et de restituer les données au front en suivant la nomenclature détaillée plus haut. En échange d'une requête http, le back-end reverra du JSON.
 
 Pour manipuler le fichier JSON en back, on utilisera `JSON.parse` pour convertir le JSON en objet JavaScript et le manipuler facilement, et on utilisera `JSON.stringify` pour convertir des objects JavaScript en JSON.
 
