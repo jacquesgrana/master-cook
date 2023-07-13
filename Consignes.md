@@ -78,6 +78,8 @@ pincée -> "UNIT_PINCH"
 quantité selon le goût du cuisinier -> "UNIT_PM"
 ```
 
+Lorsque l'unité choisie est `UNIT_PM`, il n'y a pas de champs `quantity` dans l'objet ingrédient concerné.
+
 <br>
 
 # URL exposées
