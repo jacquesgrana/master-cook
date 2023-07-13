@@ -125,30 +125,33 @@ GET {{url vers le serveur NodeJS}}/recipes?ingredient=onion
 
 ```json
 "recipes": [
-	{
-		"id": 1,
-		"title": "Raclette",
-		"ingredients": [
-			{
-				"name": "potatoe",
-				"quantity": 16,
-				"unit": "UNIT_OBJECT"
-			},
-			{
-				"name": "tomatoe",
-				"quantity": 300,
-				"unit": "UNIT_GRAM"
-			},
-			{
-				...
-			}
-		]
-	},
-	{
-		"id": 2,
-		"title": "Bouillabaisse",
-		...
-	}
+	"french": [
+		{
+			"id": 1,
+			"title": "Raclette",
+			"ingredients": [
+				{
+					"name": "potatoe",
+					"quantity": 16,
+					"unit": "UNIT_OBJECT"
+				},
+				{
+					"name": "tomatoe",
+					"quantity": 300,
+					"unit": "UNIT_GRAM"
+				},
+				{
+					...
+				}
+			]
+		},
+		{
+			"id": 2,
+			"title": "Bouillabaisse",
+			...
+		}
+	],
+	...
 ]
 ```
 
