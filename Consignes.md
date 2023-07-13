@@ -69,6 +69,7 @@ cuillère à café -> "UNIT_TEASPOON",
 cube -> "UNIT_CUBE",
 gousse -> "UNIT_POD",
 pincée -> "UNIT_PINCH"
+quantité selon le goût du cuisinier -> "UNIT_PM"
 ```
 
 <br>
