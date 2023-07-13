@@ -177,7 +177,6 @@ POST {{url vers le serveur NodeJS}}/recipes
 
 ```json
 {
-	"id": 47,
 	"title": "Tiramisu",
 	"ingredients": [
 		{
