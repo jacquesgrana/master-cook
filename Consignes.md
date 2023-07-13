@@ -58,7 +58,6 @@ Chaque ingrédient est précisé avec sa quantité et son unité, suivant la nom
 
 ```
 gramme -> "UNIT_GRAM",
-kilogramme -> "UNIT_KILOGRAM",
 objet -> "UNIT_OBJECT" (exemple: 12 pommes de terre),
 sachet -> "UNIT_PACK",
 tranche -> "UNIT_SLICE",
