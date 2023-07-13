@@ -182,7 +182,7 @@ GET {{url vers le serveur NodeJS}}/recipes?ingredient=onion
 > Requête
 
 ```
-POST {{url vers le serveur NodeJS}}/recipes
+POST {{url vers le serveur NodeJS}}/recipes?gastronomy=italy
 ```
 
 
