@@ -122,7 +122,7 @@ GET {{url vers le serveur NodeJS}}/recipes?name=tartiflette
 ```
 
 *Paramètres*
-- name: le nom de la recette recherchée. Fonctionne de manière *case insensitive* c'est à dire dans le cas où la recherche se fait soit en majuscule soit en minuscule
+- name: le nom de la recette recherchée. Fonctionne de manière *case insensitive* c'est à dire dans le cas où la recherche se fait soit en majuscule soit en minuscule, soit un mélange des deux
 
 > Réponse
 
