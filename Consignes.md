@@ -112,6 +112,53 @@ GET {{url vers le serveur NodeJS}}/recipes
 
 <br>
 
+### Obtenir une recette par son nom
+---
+
+> Requêtes
+
+```
+GET {{url vers le serveur NodeJS}}/recipes?name=tartiflette
+```
+
+*Paramètres*
+- name: le nom de la recette recherchée
+
+> Réponse
+
+```json
+{
+	"id": 35,
+	"title": "Tartiflette",
+	"ingredients": [
+		{
+			"name": "potatoe",
+			"quantity": 15,
+			"unit": "UNIT_OBJECT"
+		},
+		{
+			"name": "roblochon",
+			"quantity": 400,
+			"unit": "UNIT_GRAM"
+		},
+		{
+			...
+		}
+	]
+}
+```
+
+*Ressource non trouvée:*
+
+```json
+{
+	"code": "404",
+	"title": "Ressource non trouvée."
+}
+```
+
+<br>
+
 ### Obtenir les recettes filtrées par gastronomie et par ingrédients
 ---
 
