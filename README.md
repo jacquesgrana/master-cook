@@ -1,7 +1,7 @@
 
 # Projet Master Cook
 
-### lien github : [https://github.com/NordyFly/ProjectFullStackJS/](https://github.com/NordyFly/ProjectFullStackJS/)
+### Lien github : [https://github.com/NordyFly/ProjectFullStackJS/](https://github.com/NordyFly/ProjectFullStackJS/)
 
 ### Développeurs :
 
